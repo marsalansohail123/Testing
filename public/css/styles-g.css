@@ -1,0 +1,81 @@
+body {
+    background-color: #f4f4f4 !important;
+}
+
+/* Text Colour */
+
+.custom-text-color {
+    color: #ff422f !important;
+}
+
+/* Background Colour */
+
+.custom-bg-color {
+    background-color: #ff422f !important;
+}
+
+/* Header - Footer Styling */
+
+/* Footer */
+
+.navbar-custom {
+    background-color: #f4f4f4;
+}
+
+.navbar-brand {
+    font-size: 24px;
+    font-weight: bold;
+    color: #ff4500;
+}
+
+.navbar-brand span {
+    color: white;
+    background-color: #ff4500;
+    padding: 0 5px;
+    border-radius: 50%;
+}
+
+.logout {
+    font-size: 16px;
+    margin-right: 10px;
+    color: #333;
+}
+
+.profile-icon {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: #d9534f;
+    display: inline-block;
+}
+
+/* DropDown - Hamburger */
+
+.custom-dropdown:focus {
+    border: none;
+}
+
+/* DropDown */
+
+.dropdown-menu {
+    -webkit-box-shadow: 2px 5px 26px -7px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px 5px 26px -7px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px 5px 26px -7px rgba(0, 0, 0, 0.75);
+}
+
+/* DropDown Links */
+
+.dropdown-item:hover {
+    background-color: #ffffff00;
+    color: #ff422f;
+}
+
+/* Go Back Button */
+
+.goBack {
+    width: 25px;
+    height: 25px;
+    background-color: #ff4f3e;
+    border-radius: 50%;
+    color: white;
+}

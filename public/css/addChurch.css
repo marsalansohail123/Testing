@@ -1,0 +1,21 @@
+/* Input */
+
+.input-custom {
+    border: 1px solid rgb(113, 113, 113);
+    padding: 7px 10px;
+}
+
+.input-custom:focus {
+    outline: none;
+    border-color: #ff4f3e;
+    box-shadow: none;
+}
+
+/* Button */
+
+.custom-btn:hover {
+    border: 2px solid #ff422f !important;
+    background-color: white !important;
+    color: black !important;
+    font-weight: 500;
+}

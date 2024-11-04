@@ -1,0 +1,27 @@
+/* Icon */
+
+.custom-icon {
+    font-size: 70px;
+}
+
+/* Card */
+
+.custom-card {
+    border-radius: 15px;
+    -webkit-box-shadow: 2px -2px 15px -10px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 2px -2px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 2px -2px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.custom-card:hover {
+    background-color: #ff422f !important;
+    color: white !important;
+}
+
+.custom-card:hover h5 {
+    color: white !important;
+}
+
+.custom-card:hover .custom-icon {
+    color: white !important;
+}

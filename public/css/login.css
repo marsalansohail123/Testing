@@ -1,0 +1,79 @@
+/* Select */
+
+.custom-select {
+    border: 2px solid #ff4f3e;
+    border-radius: 4px;
+    color: #9a9a9a;
+    padding: 15px 40px 15px 12px;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+}
+
+.dropdown-arrow {
+    position: absolute;
+    top: 69%;
+    right: 12px;
+    transform: translateY(-50%);
+    width: 25px;
+    height: 25px;
+    background-color: #ff4f3e;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown-arrow i {
+    color: #fff;
+    font-size: 14px;
+}
+
+.custom-select:focus {
+    outline: none;
+    border-color: #ff4f3e;
+    box-shadow: none;
+}
+
+/* Input */
+
+.custom-input {
+    border: 2px solid #ff4f3e;
+    border-radius: 4px;
+    color: #9a9a9a;
+    padding: 15px 40px 15px 12px;
+    background-color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    position: relative;
+}
+
+.custom-input:focus {
+    outline: none;
+    border-color: #ff4f3e;
+    box-shadow: none;
+}
+
+/* Button */
+
+.button-submit {
+    background-color: #ff422f;
+}
+
+.button-submit:hover {
+    border: 2px solid #ff422f !important;
+    color: black !important;
+}
+
+/* Heading (Add church) */
+
+.custom-heading {
+    color: #ff422f !important;
+}

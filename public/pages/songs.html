@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Songs - Slamp</title>
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+        integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/songs.css">
+    <!-- Styles Global -->
+    <link rel="stylesheet" href="../css/styles-g.css">
+</head>
+
+<body>
+
+    <!-- === HEADER START === -->
+
+    <div class="container-fluid py-2">
+        <div class="px-5 d-flex align-items-center justify-content-between">
+            <div>
+                <div class="dropdown">
+                    <button class="btn custom-dropdown" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        <i class="fa-solid fa-bars fs-4"></i>
+                    </button>
+                    <ul class="dropdown-menu border-0 pe-5">
+                        <li><button class="dropdown-item custom-text-color" type="button">Dashboard</button>
+                        </li>
+                        <li><button class="dropdown-item" type="button">Songs</button></li>
+                        <li><button class="dropdown-item" type="button">Media</button></li>
+                        <li><button class="dropdown-item" type="button">Announcement</button></li>
+                        <li><button class="dropdown-item" type="button">Scriptures</button></li>
+                        <li><button class="dropdown-item" type="button">Presentations</button></li>
+                        <li><button class="dropdown-item" type="button">Users</button></li>
+                        <li><button class="dropdown-item" type="button">Feedback</button></li>
+                        <li><button class="dropdown-item" type="button">Settings</button></li>
+                    </ul>
+                </div>
+            </div>
+
+            <h5 class="mb-0">Songs</h5>
+
+            <a href="#" class="btn d-flex align-items-center">
+                <span class="text-secondary "> Go Back </span> &nbsp; &nbsp;
+                <div class="goBack">
+                    <i class="fa-solid fa-arrow-left"></i>
+                </div>
+            </a>
+        </div>
+    </div>
+
+    <!-- === HEADER END === -->
+
+    <!-- MAIN CONTENT START -->
+
+    <div class="container">
+        <div class="pt-5">
+            <h4 class="custom-text-color">Search Songs</h4>
+        </div>
+        <div class="input-group mb-3">
+            <input type="text" class="form-control rounded custom-search-input"
+                placeholder="Search by title, composer, or artist">
+            <button class="mx-2 btn custom-bg-color text-white rounded fw-medium px-5">Search</button>
+        </div>
+        <div class="bg-white p-4">
+            <div class="d-flex justify-content-between">
+                <h5 class="fw-bold">View Songs</h5>
+                <button class="mx-2 btn custom-bg-color text-white rounded fw-medium px-5">Search</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- MAIN CONTENT END -->
+
+    <!-- === FOOTER START === -->
+
+    <nav class="navbar navbar-custom fixed-bottom d-flex justify-content-between align-items-center px-4 pb-4 px-5">
+        <a class="navbar-brand" href="./home.html"><img src="../images/logo-1.png" width="150px"></a>
+        <div class="d-flex align-items-center">
+            <span class="logout fs-5"><a href="../index.html"
+                    class="link-offset-2 link-underline link-underline-opacity-0 text-black">Log out</a></span>
+            <div>
+                <img src="../images/user.webp" width="50px" alt="">
+            </div>
+            <!-- <div class="profile-icon">
+                <i class="fa-solid fa-user-tie fs-4"></i>
+            </div> -->
+        </div>
+    </nav>
+
+    <!-- === FOOTER END === -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
